@@ -103,19 +103,25 @@ console.log("I have my Drinks coupon, will I get chocolates?", drinkCoupon);
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let numTwelve = 12;
+let numTwenty = 20;
+
+let numAdditionTotal= numTwelve + numTwenty;
+console.log("The total sum of", numTwelve, "+", numTwenty, "=", numAdditionTotal);
+
 
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
 */
 
-/* WRITE YOUR ANSWER HERE */
+//variable X
+let variableX = 12;
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
-/* WRITE YOUR ANSWER HERE */
+let nameOfPerson = "John Doe";
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
