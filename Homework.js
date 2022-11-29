@@ -129,8 +129,8 @@ console.log("\nName of Person is:", nameOfPerson)
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
 */
 
-let numSubtract = 12 - variableX 
-console.log("Subtracting 12 - variableX = ",numSubtract );
+
+console.log(12 - variableX );
 
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
@@ -143,11 +143,11 @@ let name2 = "John";
 
 console.log("\nBoth Johns + john are the same?", name1 == name2 ) // false in equality as one had capital letters and the other has no capital letters
 
-//when I make both names has smaller casing
-let name3 = "john";
-let name4 = "john";
-
-console.log("Both johns + john are the same?", name3 == name4 ) ; // check using the lowerCasing 
+if(name2.toLocaleLowerCase() == name1){
+    console.log("They are the same as name2 change from John to:" , name2.toLocaleLowerCase());
+} else{
+    console.log("They are not equal at all");
+}
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
