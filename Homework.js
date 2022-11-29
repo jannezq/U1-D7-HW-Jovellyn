@@ -154,8 +154,6 @@ console.log("Both johns + john are the same?", name3 == name4 ) ;
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
-/* WRITE YOUR ANSWER HERE */
-
 
 let numLessThan = 8;
 if (numLessThan < 10){
@@ -169,4 +167,13 @@ if (numLessThan < 10){
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
 
-/* WRITE YOUR ANSWER HERE */
+// condition ? ifTrue : ifFatlse ;
+
+// let customerHasCoupon = true;
+// let freeChocolate = customerHasCoupon ? "Enjoy your free chocolate!" : "That will be five euros, please";
+// console.log(freeChocolate);
+
+let coupon = "Chocolate Coupon"
+let customerHasCoupon = true;
+let freeChocolate = customerHasCoupon ? "Enjoy your free chocolate!" : "That will be five euros, please";
+console.log(freeChocolate);
