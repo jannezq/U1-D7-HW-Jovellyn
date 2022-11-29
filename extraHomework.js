@@ -6,16 +6,29 @@
 */
 
 /* WRITE YOUR ANSWER HERE */
+let isMale = true;
+let genderType = isMale ? "Male" : "Female";
+console.log(genderType);
+
 
 /*EX 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
+
+
+
 
 /* WRITE YOUR ANSWER HERE */
 
 /*EX 3
  Create a variable and assign to it the concatenation of two strings.
 */
+
+let stringOne = "One String"
+let stringTwo = "Second String"
+
+let allString = stringOne + stringTwo
+console.log("Both strings added:", allString);
 
 /* WRITE YOUR ANSWER HERE */
 
@@ -24,6 +37,7 @@
  Using a conditional statement, write a piece of code for sorting their values from highest to lowest.
  Display the result in the console.
 */
+
 
 /* WRITE YOUR ANSWER HERE */
 
@@ -36,7 +50,7 @@
 /*EX 6
  Write a piece of code for finding the longest of two given strings.
 */
-
+//divide the variable by 2 .
 /* WRITE YOUR ANSWER HERE */
 
 /*EX 7

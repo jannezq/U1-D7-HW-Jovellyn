@@ -147,7 +147,7 @@ console.log("\nBoth Johns + john are the same?", name1 == name2 ) // false in eq
 let name3 = "john";
 let name4 = "john";
 
-console.log("Both johns + john are the same?", name3 == name4 ) ;
+console.log("Both johns + john are the same?", name3 == name4 ) ; // check using the lowerCasing 
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
@@ -156,10 +156,36 @@ console.log("Both johns + john are the same?", name3 == name4 ) ;
 
 
 let numLessThan = 8;
-if (numLessThan < 10){
-    console.log("\nThe value is less than 10");
-} else{
-    console.log("The number is not less than 10");
+// if (numLessThan < 10){
+//     console.log("\nThe value is less than 10");
+// } else{
+//     console.log("The number is not less than 10");
+// }
+
+// write down more for the printing option 
+
+if (numLessThan==0){
+    console.log("zero")
+} else if (numLessThan == 1){
+    console.log("one")
+} else if (numLessThan == 2){
+    console.log("two")
+} else if (numLessThan == 3){
+    console.log("three")
+} else if (numLessThan == 4){
+    console.log("four")
+} else if (numLessThan == 5){
+    console.log("five")
+} else if (numLessThan == 6){
+    console.log("six")
+} else if (numLessThan == 7){
+    console.log("seven")
+} else if (numLessThan == 8){
+    console.log("eight")
+} else if (numLessThan == 9){
+    console.log("nine")
+} else if (numLessThan == 10){
+    console.log("Number is 10 or more!")
 }
 
 /* EXERCISE 9
@@ -167,7 +193,7 @@ if (numLessThan < 10){
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
 
-// condition ? ifTrue : ifFatlse ;
+// condition ? ifTrue : ifFalse ;
 
 
 let coupon = "Chocolate Coupon"
