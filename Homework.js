@@ -107,7 +107,7 @@ let numTwelve = 12;
 let numTwenty = 20;
 
 let numAdditionTotal= numTwelve + numTwenty;
-console.log("The total sum of", numTwelve, "+", numTwenty, "=", numAdditionTotal);
+console.log("\nThe total sum of", numTwelve, "+", numTwenty, "=", numAdditionTotal);
 
 
 /* EXERCISE 4
@@ -116,18 +116,21 @@ console.log("The total sum of", numTwelve, "+", numTwenty, "=", numAdditionTotal
 
 //variable X
 let variableX = 12;
+console.log("\nVariable X =", variableX);
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
 let nameOfPerson = "John Doe";
+console.log("\nName of Person is:", nameOfPerson)
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
 */
 
-/* WRITE YOUR ANSWER HERE */
+let numSubtract = 12 - variableX 
+console.log("Subtracting 12 - variableX = ",numSubtract );
 
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
@@ -135,7 +138,16 @@ let nameOfPerson = "John Doe";
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
 
-/* WRITE YOUR ANSWER HERE */
+let name1 = "john";
+let name2 = "John";
+
+console.log("\nBoth Johns + john are the same?", name1 == name2 ) // false in equality as one had capital letters and the other has no capital letters
+
+//when I make both names has smaller casing
+let name3 = "john";
+let name4 = "john";
+
+console.log("Both johns + john are the same?", name3 == name4 ) ;
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
@@ -143,6 +155,14 @@ let nameOfPerson = "John Doe";
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+
+let numLessThan = 8;
+if (numLessThan < 10){
+    console.log("\nThe value is less than 10");
+} else{
+    console.log("The number is not less than 10");
+}
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
