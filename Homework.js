@@ -46,7 +46,7 @@ let nameOfSecondChocolate = 'Hersheys';
 
 console.log("\nChocolate bars available:", nameOfOneChocolate, nameOfSecondChocolate);
 
-// An empty string can still be counted example is
+// An empty string can still be counted, example is
 // "" <----- Javascript will still understand there is something there as 0
 let unknownNameOfChocolate = "";
 console.log("There will be no chocolate name on this line:", unknownNameOfChocolate);
@@ -74,11 +74,30 @@ console.log("\nChocolate bar available:", boxOfChocolateBar);
 let boxTwoOfChocolateBar ;
 console.log("There is none in box but we did not check:",boxTwoOfChocolateBar);
 
+// Fifth type is "Boolean"
+// Boolean is an expression that will give us the answer true or false.
+// example would be having a coupon for getting chocolates.
+// If you have a coupon for the chocolates, you can get free chocolates
+// if you don't have the correct coupon, you won't get the free chocolate
+
+let chocolateCoupon = true;
+let drinkCoupon = false;
+
+console.log("\nI have a coupon for chocolate, will I get chocolate?:", chocolateCoupon);
+console.log("I have my Drinks coupon, will I get chocolates?", drinkCoupon);
+
+
+
 /* EXERCISE 2
  Try to describe what a variable is, in your own words.
 */
 
-/* WRITE YOUR ANSWER HERE */
+// A variable is what we can consider the container of the value that we are inputing.
+// -The container has a unique name 
+// -throughout the whole coding process, it can be used as many times is different operations.
+// -The value in the container can change depending on the conditions it goes through
+// That is what a variable is
+
 
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
