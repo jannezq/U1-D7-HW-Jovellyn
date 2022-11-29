@@ -169,9 +169,6 @@ if (numLessThan < 10){
 
 // condition ? ifTrue : ifFatlse ;
 
-// let customerHasCoupon = true;
-// let freeChocolate = customerHasCoupon ? "Enjoy your free chocolate!" : "That will be five euros, please";
-// console.log(freeChocolate);
 
 let coupon = "Chocolate Coupon"
 let customerHasCoupon = true;
