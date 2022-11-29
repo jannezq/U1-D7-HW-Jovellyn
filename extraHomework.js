@@ -49,7 +49,7 @@ let stringTwo = "Second String"
 let allString = stringOne + stringTwo
 console.log("Both strings added:", allString);
 
-/* WRITE YOUR ANSWER HERE */
+
 
 /*EX 4
  Create three variables and assign a numerical value to each one of them. 
@@ -138,4 +138,10 @@ console.log(newSunscreenPrice);
  Write a piece of code for checking if a given number is even or odd.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let number = 20;
+
+if (number % 2 === 0){
+    console.log("The number is an even");
+} else {
+    console.log("The number is an odd number");
+}
